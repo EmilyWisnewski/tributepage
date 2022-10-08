@@ -225,13 +225,12 @@ html, body, main, section, header, div, article, aside, figure, figcaption, imag
     section.even {grid-template-columns: 4fr 8fr;}
   }
 
-  .hover08 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover08 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
+
+.hover08 figure img {
+    transition: .5s ease;
+    }
+    
+.hover08 figure img:hover{
+    box-shadow: 0 0 0 10px #cacaca;
+    transition: .5s ease;
+    }
